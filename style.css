@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+.div p{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div > p{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3 + p {
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
