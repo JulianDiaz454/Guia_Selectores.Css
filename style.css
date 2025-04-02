@@ -1,29 +1,60 @@
 body{
     text-align: center;
 }
+
+/*Selector usado en el ejercicio 1*/
 .div p{
     color: blue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/*Selector usado en el ejercicio 2*/
 .hijo_directo > p{
     color: red;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+/*Selector usado en el ejercicio 3*/
 h3 + p {
     color: green;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/*Selector usado en el ejercicio 4*/
 h4 ~ p {
     color: purple;
     font-family: cursive;
 }
+
+/*Selectores usados en el ejercicio 5*/
+nav ul {
+    background-color: black;
+    display: flex;
+}
+ul a {
+    font-size: 25px;
+    padding-inline: 50px;
+    text-decoration: none;
+    color: gold;
+}
+
+/*Selectores usados en el ejercicio 6*/
 .section{
-    height: 1000px;
-    width: 1000px;
+    height: 1100px;
+    width: 1100px;
 }
 .card {
     margin: 0 auto;
-    border: 5px solid black;
-    height: 60%;
-    width: 40%;
+    border: 5px solid purple;
+    height: 55%;
+    width: 35%;
+    background-color: black;
+    padding: 30px;
+}
+header h1 {
+    color: purple;
+    font-size: 40px;
+}
+main p {
+    color: white;
 }
